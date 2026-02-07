@@ -182,12 +182,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 90px;
+    margin: 90px 0;
 }
 
 .review-flex{
     border: 1px solid #ecebed50;
-    background-color:#ffffff50;
+    background-color:#ffffff;
     width: 360px;
     height: 205px;
     padding: 25px;
@@ -237,4 +237,46 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.start-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 20px 30px;
+    border: 1px solid #ecebed50;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.start-section h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.start-section p{
+    font-size: 18px;
+    color: #00000050;
+    margin-bottom: 15px;
+}
+.btn-4{
+    width: 190px;
+    height: 40px;
+    padding: 10px 20px;
+    background: #4E47FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    margin-bottom: 25px;
+}
+.btn-4:hover{
+    background: #4E47FF70;
+}
+
+.start-section img{
+    border-radius: 50px;
 }
